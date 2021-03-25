@@ -13,11 +13,13 @@ for (let i = 0; i < array.length; i++) {
             i++;
         }
         // Mostramos por pantalla el array completo //
+        document.write( '["' + array[i] + '",' + contador + ']');
         window.alert( '["' + array[i] + '",' + contador + ']');
         contador = 1;
     } else {
         contador = 1;
         // Mostramos por pantalla el array completo //
+        document.write('["' + array[i] + '",'+ contador +']');
         window.alert('["' + array[i] + '",'+ contador +']');
     }
 }
